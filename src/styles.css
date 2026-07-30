@@ -28,7 +28,7 @@
   .contact-row { @apply flex items-center gap-4 rounded-2xl border border-white/10 bg-forest-800 p-5 transition hover:border-leaf-400/40; }
   .contact-row > span { @apply grid size-11 shrink-0 place-items-center rounded-full bg-leaf-400 text-forest-950; }
   .contact-row div { @apply flex min-w-0 flex-col; }
-  .contact-row small { @apply text-xs uppercase tracking-widest text-white/40; }
+  .contact-row small { @apply text-xs uppercase tracking-widest text-white/70; }
   .contact-row strong { @apply mt-1 text-sm leading-6 text-white; }
   .contact-form-embed { @apply min-h-[883px] overflow-hidden rounded-2xl bg-white; }
   .contact-form-embed iframe { @apply block h-[883px] w-full border-0; border-radius: 8px; }
