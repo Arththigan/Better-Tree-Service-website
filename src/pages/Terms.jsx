@@ -1,0 +1,82 @@
+import LegalPage from "../components/LegalPage";
+
+const sections = [
+  {
+    title: "1. Business Identity",
+    paragraphs: ["These Terms and Conditions govern your use of the services provided by Better Tree Service, located at 5006 Aitchison Rd, Syracuse, NY 13215. Contact us by phone at (315) 660-7687 or through the contact form on this website."]
+  },
+  {
+    title: "2. Age Requirement (18+)",
+    paragraphs: ["By using this website or enrolling in our services, including SMS messaging, you confirm that you are at least 18 years of age. Our SMS program is not directed to individuals under 18."]
+  },
+  {
+    title: "3. Terminology",
+    paragraphs: ["“Client,” “You,” and “Your” refer to the user of this website. “The Company,” “We,” “Our,” and “Us” refer to Better Tree Service."]
+  },
+  {
+    title: "4. SMS Messaging Terms of Service",
+    subsections: [
+      {
+        title: "4a. Program Description & Message Types",
+        paragraphs: ["By providing your phone number and checking the SMS consent checkbox on our contact forms, you agree to receive recurring automated text messages from Better Tree Service. Messages may include:"],
+        items: ["Free estimate confirmations and scheduling notifications", "Appointment reminders and project status updates", "Customer support and service follow-up communications", "Promotional offers and seasonal announcements related to our tree care services"]
+      },
+      {
+        title: "4b. Message Frequency",
+        paragraphs: ["Message frequency varies based on your service activity and interactions with us. You may receive up to 4–8 messages per month. Frequency may increase during active service periods."]
+      },
+      {
+        title: "4c. Message & Data Rates",
+        paragraphs: ["Message and data rates may apply for any messages sent to you from us and to us from you. Charges are determined by your mobile carrier and your individual service plan. Better Tree Service is not responsible for any carrier charges."]
+      },
+      {
+        title: "4d. How to Opt Out (STOP)",
+        paragraphs: ["You can opt out of receiving SMS messages at any time by replying STOP to any message we send. After opting out, you will receive a one-time confirmation message and will no longer receive SMS messages from us unless you re-enroll."]
+      },
+      {
+        title: "4e. How to Get Help (HELP)",
+        paragraphs: ["For help with our SMS program, reply HELP to any message, call (315) 660-7687, or use the contact form on this website."]
+      },
+      {
+        title: "4f. Carrier Liability Disclaimer",
+        paragraphs: ["Mobile carriers are not liable for delayed or undelivered messages. Better Tree Service cannot guarantee delivery of SMS messages. Delivery of information through SMS may be subject to your mobile carrier’s capability and coverage area."]
+      },
+      {
+        title: "4g. Supported Carriers",
+        paragraphs: ["Our SMS program is designed to work with major U.S. wireless carriers. Carrier and message availability may vary."]
+      }
+    ]
+  },
+  {
+    title: "5. Cookies",
+    paragraphs: ["We use cookies in accordance with our Privacy Policy to improve user experience and website functionality."]
+  },
+  {
+    title: "6. Intellectual Property & License",
+    paragraphs: ["Unless otherwise stated, Better Tree Service owns or is authorized to use the intellectual property rights for content on this website. You may not copy, reproduce, republish, sell, or redistribute any material without prior written permission."]
+  },
+  {
+    title: "7. Comments & User Content",
+    paragraphs: ["Better Tree Service reserves the right to monitor and remove any comments or user-generated content on our platforms that are inappropriate, offensive, or violate these terms."]
+  },
+  {
+    title: "8. Content Liability",
+    paragraphs: ["We are not responsible for content that appears on external websites linking to us. You agree to defend and protect Better Tree Service against claims arising from content on your website or digital properties where legally applicable."]
+  },
+  {
+    title: "9. Disclaimer",
+    paragraphs: ["To the maximum extent permitted by applicable law, Better Tree Service excludes warranties, representations, and conditions relating to our website and services. We are not liable for any loss or damage, including damage for loss of business, profits, or revenue, arising from the use of our website or services, except where liability cannot legally be excluded."]
+  },
+  {
+    title: "10. Changes to These Terms",
+    paragraphs: ["We reserve the right to update these Terms and Conditions at any time. Changes will be posted on this page with a revised “Last Updated” date. Continued use of our website or services constitutes acceptance of the updated terms."]
+  },
+  {
+    title: "11. Contact Information",
+    items: ["Company: Better Tree Service", "Address: 5006 Aitchison Rd, Syracuse, NY 13215", "Phone: (315) 660-7687", "Online: Use the contact form on this website"]
+  }
+];
+
+export default function Terms() {
+  return <LegalPage title="Terms & Conditions" description="Read the Better Tree Service website, service, and SMS messaging terms and conditions." path="/terms-and-conditions" intro="Welcome to Better Tree Service. By accessing this website or using our services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our website or services." sections={sections} />;
+}
