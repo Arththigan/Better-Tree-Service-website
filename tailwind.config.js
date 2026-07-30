@@ -21,8 +21,8 @@ export default {
         cream: "#f5f1e8"
       },
       fontFamily: {
-        display: ["Oswald", "sans-serif"],
-        body: ["DM Sans", "sans-serif"]
+        display: ["Arial Narrow", "Roboto Condensed", "Arial", "sans-serif"],
+        body: ["Inter", "Segoe UI", "Roboto", "Arial", "sans-serif"]
       },
       boxShadow: {
         glow: "0 20px 70px rgba(101, 173, 60, .16)"

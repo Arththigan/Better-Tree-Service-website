@@ -4,12 +4,15 @@ import { business, images } from "../data";
 
 export function SplitText({ text, className = "" }) {
   return (
-    <span className={className} aria-label={text}>
-      {text.split(" ").map((word, index) => (
-        <span className="split-word-wrap" aria-hidden="true" key={`${word}-${index}`}>
-          <span className="split-word" style={{ "--word-index": index }}>{word}</span>
-        </span>
-      ))}
+    <span className={className}>
+      <span className="sr-only">{text}</span>
+      <span aria-hidden="true">
+        {text.split(" ").map((word, index) => (
+          <span className="split-word-wrap" key={`${word}-${index}`}>
+            <span className="split-word" style={{ "--word-index": index }}>{word}</span>
+          </span>
+        ))}
+      </span>
     </span>
   );
 }

@@ -64,7 +64,7 @@ export function TrustStrip() {
       ].map(([title, text]) => (
         <div key={title} className="bg-forest-800 p-7">
           <ShieldCheck className="text-leaf-400" />
-          <h3 className="mt-4 font-display text-xl uppercase">{title}</h3>
+          <h2 className="mt-4 font-display text-xl uppercase">{title}</h2>
           <p className="mt-2 text-sm text-white/50">{text}</p>
         </div>
       ))}

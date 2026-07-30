@@ -19,8 +19,8 @@ function BrandLogo({ footer = false }) {
       <img
         src="/images/better-tree-service-logo.png"
         alt="Better Tree Service — Established 2023"
-        width="896"
-        height="1200"
+        width="224"
+        height="300"
       />
     </span>
   );
@@ -109,7 +109,7 @@ export default function Layout() {
             <a className="mt-4 flex gap-3 text-sm leading-6 text-white/55 hover:text-leaf-400" href={business.mapUrl} target="_blank" rel="noreferrer"><MapPin className="shrink-0" size={18}/>{business.address}</a>
           </div>
         </div>
-        <div className="shell flex flex-col items-center justify-between gap-4 border-t border-white/10 py-6 text-center text-xs text-white/40 sm:flex-row sm:text-left">
+        <div className="shell flex flex-col items-center justify-between gap-4 border-t border-white/10 py-6 text-center text-xs text-white/70 sm:flex-row sm:text-left">
           <span>© 2026 Better Tree Service. All rights reserved.</span>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2" aria-label="Legal">
             <Link className="transition hover:text-leaf-400" to="/privacy-policy">Privacy Policy</Link>

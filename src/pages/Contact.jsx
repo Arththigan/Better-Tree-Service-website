@@ -1,9 +1,21 @@
+import { useEffect } from "react";
 import { Clock3, MapPin, Phone } from "lucide-react";
 import Seo from "../components/Seo";
 import { PageHero, SectionHeading } from "../components/Sections";
 import { business, images } from "../data";
 
 export default function Contact() {
+  useEffect(() => {
+    const id = "kdlead-form-embed";
+    if (document.getElementById(id)) return undefined;
+    const script = document.createElement("script");
+    script.id = id;
+    script.src = "https://link.kdlead.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return undefined;
+  }, []);
+
   return (
     <>
       <Seo title="Contact Better Tree Service | Free Estimate in Syracuse, NY" description="Request a tree service estimate in Syracuse, NY. Call Better Tree Service or send details about your tree removal, trimming or stump project." path="/contact" />

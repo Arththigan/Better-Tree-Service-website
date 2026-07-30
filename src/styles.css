@@ -47,7 +47,7 @@
   .stats-grid { @apply grid overflow-hidden rounded-3xl border border-white/10 bg-forest-800 sm:grid-cols-2 lg:grid-cols-4; }
   .stat-item { @apply relative flex min-h-40 flex-col justify-end border-white/10 p-7 max-sm:border-b sm:[&:not(:nth-child(2n))]:border-r lg:[&:not(:last-child)]:border-r; }
   .stat-item strong { @apply font-display text-5xl text-leaf-400; }
-  .stat-item > span { @apply mt-2 text-xs font-bold uppercase tracking-[.14em] text-white/45; }
+  .stat-item > span { @apply mt-2 text-xs font-bold uppercase tracking-[.14em] text-white/70; }
   .faq-list { @apply divide-y divide-white/10 border-y border-white/10; }
   .faq-item button { @apply flex w-full items-center justify-between gap-5 py-6 text-left font-display text-xl uppercase sm:text-2xl; }
   .faq-item button svg { @apply shrink-0 text-leaf-400 transition duration-300; }
@@ -300,11 +300,12 @@
   .mobile-call-bar > span:last-child { display: flex; flex-direction: column; }
   .mobile-call-bar small { color: rgb(255 255 255 / .48); font-size: .65rem; text-transform: uppercase; letter-spacing: .12em; }
   .mobile-call-bar strong { font-size: .85rem; }
-  .call-pulse { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; border-radius: 999px; background: #83c954; color: #0b110d; animation: call-pulse 2s infinite; }
+  .call-pulse { position: relative; display: grid; width: 2.5rem; height: 2.5rem; place-items: center; border-radius: 999px; background: #83c954; color: #0b110d; }
+  .call-pulse::after { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; background: #83c954; animation: call-pulse 2s infinite; }
   .comparison { border-radius: 1.25rem; }
 }
 
 @keyframes call-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgb(131 201 84 / .35); }
-  50% { box-shadow: 0 0 0 9px rgb(131 201 84 / 0); }
+  0%, 100% { opacity: .35; transform: scale(1); }
+  50% { opacity: 0; transform: scale(1.45); }
 }
