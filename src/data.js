@@ -9,7 +9,7 @@ export const business = {
 };
 
 export const images = {
-  hero: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=480&q=30&fm=avif",
+  hero: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=420&q=24&fm=avif",
   heroDesktop: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=1400&q=52&fm=avif",
   climber: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=900",
   forest: "https://images.pexels.com/photos/11930042/pexels-photo-11930042.jpeg?auto=compress&cs=tinysrgb&w=900",
