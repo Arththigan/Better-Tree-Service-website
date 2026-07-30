@@ -4,13 +4,13 @@ Better Tree Service provides residential and commercial tree care in Syracuse, N
 
 ## Primary pages
 
-- Home: https://bettertreeservice.com/
-- About: https://bettertreeservice.com/about
-- Services: https://bettertreeservice.com/services
-- Gallery: https://bettertreeservice.com/gallery
-- Contact: https://bettertreeservice.com/contact
-- Privacy Policy: https://bettertreeservice.com/privacy-policy
-- Terms & Conditions: https://bettertreeservice.com/terms-and-conditions
+- [Home](https://bettertreeservice.com/)
+- [About Better Tree Service](https://bettertreeservice.com/about)
+- [Tree Services](https://bettertreeservice.com/services)
+- [Project Gallery](https://bettertreeservice.com/gallery)
+- [Contact and Free Estimate](https://bettertreeservice.com/contact)
+- [Privacy Policy](https://bettertreeservice.com/privacy-policy)
+- [Terms and Conditions](https://bettertreeservice.com/terms-and-conditions)
 
 ## Business information
 
