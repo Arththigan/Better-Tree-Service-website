@@ -41,9 +41,9 @@
   .legal-content li { @apply relative pl-6 text-base leading-7 text-white/60 before:absolute before:left-0 before:top-[.7rem] before:size-2 before:rounded-full before:bg-leaf-400; }
   .legal-subsection { @apply mt-8 rounded-2xl border border-white/10 bg-forest-800 p-6; }
   .brand-logo-frame { @apply relative block size-16 shrink-0 overflow-hidden rounded-full transition duration-300 group-hover:scale-105; }
-  .brand-logo-frame img { @apply absolute left-1/2 top-1/2 h-[86px] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-contain; }
+  .brand-logo-frame img { @apply absolute left-1/2 top-1/2 h-[84px] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-contain; }
   .brand-logo-footer { @apply size-28 rounded-none; }
-  .brand-logo-footer img { @apply h-[154px]; }
+  .brand-logo-footer img { @apply h-[150px]; }
   .stats-grid { @apply grid overflow-hidden rounded-3xl border border-white/10 bg-forest-800 sm:grid-cols-2 lg:grid-cols-4; }
   .stat-item { @apply relative flex min-h-40 flex-col justify-end border-white/10 p-7 max-sm:border-b sm:[&:not(:nth-child(2n))]:border-r lg:[&:not(:last-child)]:border-r; }
   .stat-item strong { @apply font-display text-5xl text-leaf-400; }

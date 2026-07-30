@@ -17,10 +17,11 @@ function BrandLogo({ footer = false }) {
   return (
     <span className={`brand-logo-frame ${footer ? "brand-logo-footer" : ""}`}>
       <img
-        src="/images/better-tree-service-logo.png"
+        src="/images/better-tree-service-logo.webp"
         alt="Better Tree Service — Established 2023"
-        width="224"
-        height="300"
+        width="112"
+        height="150"
+        fetchPriority="high"
       />
     </span>
   );
