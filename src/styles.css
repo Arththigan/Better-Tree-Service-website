@@ -210,7 +210,8 @@
     animation: hero-rise .8s .4s cubic-bezier(.22, 1, .36, 1) both;
   }
 
-  .route-enter > section:first-child > img {
+  .route-enter > section:first-child > img,
+  .route-enter > section:first-child > picture img {
     animation: hero-image 1.3s cubic-bezier(.22, 1, .36, 1) both;
     object-position: center calc(50% + var(--parallax, 0px));
   }

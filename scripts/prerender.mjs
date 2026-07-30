@@ -3,8 +3,17 @@ import path from "node:path";
 
 const root = process.cwd();
 const templatePath = path.join(root, "dist", "index.html");
-const template = fs.readFileSync(templatePath, "utf8");
+let template = fs.readFileSync(templatePath, "utf8");
 const siteUrl = process.env.SITE_URL || "https://bettertreeservice.com";
+
+const stylesheetTag = template.match(/<link rel="stylesheet"[^>]*href="([^"]+)"[^>]*>/);
+if (stylesheetTag) {
+  const stylesheetPath = path.join(root, "dist", stylesheetTag[1].replace(/^\//, ""));
+  const stylesheet = fs.readFileSync(stylesheetPath, "utf8");
+  template = template.replace(stylesheetTag[0], `<style>${stylesheet}</style>`);
+  fs.writeFileSync(templatePath, template);
+  fs.unlinkSync(stylesheetPath);
+}
 
 const pages = [
   {
@@ -56,4 +65,4 @@ for (const page of pages) {
   fs.writeFileSync(path.join(outputDir, "index.html"), html);
 }
 
-console.log(`Generated metadata for ${pages.length} routes.`);
+console.log(`Inlined critical CSS and generated metadata for ${pages.length} routes.`);

@@ -9,13 +9,14 @@ export const business = {
 };
 
 export const images = {
-  hero: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=640&q=35&fm=avif",
+  hero: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=480&q=30&fm=avif",
+  heroDesktop: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=1400&q=52&fm=avif",
   climber: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=900",
   forest: "https://images.pexels.com/photos/11930042/pexels-photo-11930042.jpeg?auto=compress&cs=tinysrgb&w=900",
   canopy: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=70&fm=webp",
   tree: "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=70&fm=webp",
   woods: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=70&fm=webp",
-  logs: "https://images.pexels.com/photos/1629998/pexels-photo-1629998.jpeg?auto=compress&cs=tinysrgb&w=900",
+  logs: "https://images.pexels.com/photos/1629998/pexels-photo-1629998.jpeg?auto=compress&cs=tinysrgb&w=480",
   landscape: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=70&fm=webp",
   comparisonBefore: "https://labs.google/fx/api/og-image/shared/3ddcb1c4-0c89-4a1a-b66c-687b7716d040",
   comparisonAfter: "https://labs.google/fx/api/og-image/shared/ff562c7a-d718-4f1a-8b79-59129eecd1c8"

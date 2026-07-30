@@ -10,7 +10,10 @@ export default function Home() {
     <>
       <Seo title="Better Tree Service | Tree Removal & Trimming in Syracuse, NY" description="Professional tree removal, trimming, stump grinding and emergency tree service in Syracuse, NY. Request a clear, no-pressure estimate." />
       <section className="relative isolate min-h-[calc(100svh-5rem)] overflow-hidden">
-        <img src={images.hero} alt="Professional arborist performing safe tree removal" className="absolute inset-0 -z-30 h-full w-full object-cover" fetchPriority="high" />
+        <picture className="absolute inset-0 -z-30">
+          <source media="(min-width: 768px)" srcSet={images.heroDesktop} type="image/avif" />
+          <img src={images.hero} alt="Professional arborist performing safe tree removal" className="h-full w-full object-cover" fetchPriority="high" />
+        </picture>
         <div className="absolute inset-0 -z-20 bg-gradient-to-r from-forest-950 via-forest-950/80 to-transparent" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-forest-900 via-transparent to-transparent" />
         <div className="shell flex min-h-[calc(100svh-5rem)] items-end pb-16 pt-28 lg:items-center lg:pb-10">
