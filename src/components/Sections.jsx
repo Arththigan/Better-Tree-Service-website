@@ -37,7 +37,7 @@ export function ServiceGrid({ limit }) {
         return (
           <article key={service.title} className="service-card group">
             <div className="relative h-56 overflow-hidden rounded-2xl">
-              <img src={service.cardImage || service.image} alt={`${service.title} by Better Tree Service`} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" decoding="async" width="480" height="320"/>
+              <img src={service.cardImage || service.image} alt={`${service.title} by Better Tree Service`} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" decoding="async" width="360" height="240"/>
               <span className="absolute left-4 top-4 grid size-12 place-items-center rounded-full bg-leaf-400 text-forest-950"><Icon size={23}/></span>
             </div>
             <div className="px-2 pb-2 pt-6">

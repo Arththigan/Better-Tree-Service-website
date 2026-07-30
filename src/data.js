@@ -10,7 +10,7 @@ export const business = {
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=420&q=24&fm=avif",
-  heroDesktop: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=1360&q=38&fm=avif",
+  heroDesktop: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=1360&q=34&fm=avif",
   climber: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=900",
   forest: "https://images.pexels.com/photos/11930042/pexels-photo-11930042.jpeg?auto=compress&cs=tinysrgb&w=900",
   canopy: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=70&fm=webp",
@@ -28,42 +28,42 @@ export const services = [
     description: "Safe, controlled removal of hazardous, dead, or unwanted trees around your home and property.",
     icon: Axe,
     image: images.hero,
-    cardImage: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=480&q=30&fm=avif"
+    cardImage: "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?auto=format&fit=crop&w=360&h=240&q=22&fm=avif"
   },
   {
     title: "Tree Trimming",
     description: "Thoughtful pruning that improves tree health, clearance, structure, and curb appeal.",
     icon: Leaf,
     image: images.climber,
-    cardImage: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop"
+    cardImage: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=360&h=240&fit=crop"
   },
   {
     title: "Stump Grinding",
     description: "Efficient stump and surface-root grinding to reclaim usable, clean yard space.",
     icon: Shovel,
     image: images.logs,
-    cardImage: "https://images.unsplash.com/photo-1754321895426-68b04ba453e3?auto=format&fit=crop&w=480&q=38&fm=avif"
+    cardImage: "https://images.unsplash.com/photo-1754321895426-68b04ba453e3?auto=format&fit=crop&w=360&h=240&q=22&fm=avif"
   },
   {
     title: "Emergency Service",
     description: "Fast response for storm-damaged, fallen, split, or dangerously leaning trees.",
     icon: Siren,
     image: images.forest,
-    cardImage: "https://images.pexels.com/photos/11930042/pexels-photo-11930042.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop"
+    cardImage: "https://images.pexels.com/photos/11930042/pexels-photo-11930042.jpeg?auto=compress&cs=tinysrgb&w=360&h=240&fit=crop"
   },
   {
     title: "Cabling & Support",
     description: "Targeted support systems that reduce stress on vulnerable limbs and tree unions.",
     icon: Wind,
     image: images.canopy,
-    cardImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=480&q=38&fm=avif"
+    cardImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=360&h=240&q=24&fm=avif"
   },
   {
     title: "Tree Health Care",
     description: "Practical evaluations and care plans that help valuable trees thrive season after season.",
     icon: Sprout,
     image: images.tree,
-    cardImage: "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=480&q=38&fm=avif"
+    cardImage: "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=360&h=240&q=24&fm=avif"
   }
 ];
 
